@@ -1,0 +1,207 @@
+body {
+  /*background-color: rgb(68, 9, 123);*/
+  background-color: #0a2630;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family:'Gill Sans';
+  color: #91f0f0;
+ /* background-color: rgb(68, 9, 71);*/
+   background-color: #0a2630;
+}
+
+/* Estilos para el contenedor del formulario */
+.contenedorFormulario {
+  display: flex;
+  justify-content: center;
+  /* height:70px;*/
+  /*background-color: rgb(68, 9, 71);*/
+  background-color: #074b58;
+}
+
+.contenedorDFormulario {
+  display: flex;
+  justify-content: center;
+  /* height:70px;*/
+ /* background-color: rgb(68, 9, 71);*/
+ background-color: #074b58;
+}
+
+/* Estilos para los elementos del formulario */
+.contenedorFormulario form {
+  display: flex;
+}
+
+.contenedorFormulario .item1 input {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.contenedorFormulario .item2 input {
+  margin-top: 3px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+#borrarGraficas {
+  margin-top: 3px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 180px;
+  background-color: #af4c54;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.grafico-canvasjs {
+  width: auto;
+  height: 250px;
+  overflow-x: scroll; /*Habilitar desplazamiento horizontal*/
+  flex-direction: column;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.grafico-canvasjs > .info-puntos {
+  margin-top: 200px;
+  visibility: visible;
+  position: absolute;
+  border: 2px groove;
+  left: 36%;
+}
+
+
+
+.exportar{
+  /*background-color: aqua;
+  color:white;
+  border-width: 1px solid white;*/
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4c81af;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contenedorDFormulario .itemD1 input{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-right: 211px;
+}
+
+.contenedorDFormulario .itemD2 input{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.contenedorDFormulario .itemD3b input {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+/* Estilos para el botón de eliminar */
+#borrarGraficaDoble {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 180px;
+  background-color: #af4c54;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Estilos para el contenedor de las gráficas */
+#contenedorGraficas,
+#contenedorGraficasDobles {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Estilos para los gráficos individuales */
+.grafico-canvasjs {
+  margin-top: 20px;
+}
+
+/* Estilos para el botón de exportar a PDF */
+.exportar {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilos para el div de información de puntos */
+.info-puntos {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+}
