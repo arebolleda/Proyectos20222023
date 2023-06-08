@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #114c5f;
+    color: #9cd2d3;
+    margin: 20px;
+}
+
+button, input{
+    color: #9cd2d3;
+    padding: 10px;
+    background-color: #0799b6;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.exportar{
+    color: #f2e6cf;
+}
+
+button:hover {
+    background-color: #4a6eb0;
+}
+
+.grafico-canvasjs {
+    width: auto;
+    height: 250px;
+    overflow-x:scroll; /* Habilitar desplazamiento horizontal */
+    flex-direction: column;
+    vertical-align: middle;
+    margin: 10px;
+
+}
+.grafico-canvasjs > .info-puntos{
+    margin-top: 200px;
+    visibility: visible;
+    position: absolute;
+    border: 2px groove;
+    left: 36%;
+}
+
+.contenedorFormulario{
+    display: flex;
+    justify-content: space-between;
+}
+#formulario1{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.contenedorDFormulario{
+    display: flex;
+    justify-content: space-between;
+}
+#formulario2{
+    display: flex;
+    align-items: center;
+
+}
+
+.item3{
+    display: flex;
+    justify-content: end;
+}
+.item3>button{
+    background-color:brown;
+}
+
+
+
+
+  .itemD3{
+    display: flex;
+    justify-content: end;
+}
+.itemD3>button{
+    background-color:brown;
+}
+
+.item4{
+    display: flex;
+    justify-content: center;
+}
+.itemD4{
+    display: flex;
+    justify-content: center;
+}
